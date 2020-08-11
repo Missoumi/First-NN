@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3171fdb6-2351-4af4-af9b-9efc7be82053" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nn_dropout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tunning_nn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp.py" beforeDir="false" afterPath="$PROJECT_DIR$/tp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,10 +31,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cnn" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.tunning_nn">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="tp-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -41,6 +49,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nn_dropout" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tp-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nn_dropout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,8 +98,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tunning_nn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tp-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tunning_nn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tunning_nn" />
+        <item itemvalue="Python.nn_dropout" />
         <item itemvalue="Python.tp" />
       </list>
     </recent_temporary>
@@ -94,7 +142,8 @@
       <workItem from="1596151509216" duration="1078000" />
       <workItem from="1596157526338" duration="1538000" />
       <workItem from="1596175719994" duration="44000" />
-      <workItem from="1596274880046" duration="760000" />
+      <workItem from="1596274880046" duration="2494000" />
+      <workItem from="1596277583395" duration="4601000" />
     </task>
     <servers />
   </component>
@@ -114,10 +163,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="103" key="#xdebugger.XInspectDialog/0.0.1536.864@0.0.1536.864" timestamp="1596060789388" />
-    <state x="548" y="193" width="438" height="482" key="FileChooserDialogImpl" timestamp="1596059434711">
+    <state x="548" y="193" width="438" height="482" key="FileChooserDialogImpl" timestamp="1596283639499">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="548" y="193" width="438" height="482" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1596059434711" />
+    <state x="548" y="193" width="438" height="482" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1596283639499" />
     <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1596073466859">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
